@@ -20,8 +20,6 @@ flutter:
     - packages/debrise/assets/images/vector.svg
     - packages/debrise/assets/images/frame1.svg
     - packages/debrise/assets/images/group.svg
-    - packages/debrise/assets/images/ellipse11.png
-    - packages/debrise/assets/images/ellipse12.png
     - packages/debrise/assets/images/undrawaccessaccountre8spm1.svg
     - packages/debrise/assets/images/transitionwipe.png
     - packages/debrise/assets/images/photo202206112242291.png

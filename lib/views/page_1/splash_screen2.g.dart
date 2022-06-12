@@ -24,17 +24,18 @@ class _SplashScreen2 extends State<SplashScreen2> {
       child: Stack(children: [
         Positioned(
           left: 0,
-          width: 746.0,
+          width: MediaQuery.of(context).size.width * 2.072,
           top: 0,
-          height: 800.0,
-          child: Container(
+          height: MediaQuery.of(context).size.height * 1.0,
+          child: Center(
+              child: Container(
             width: 746.000,
             height: 800.000,
             decoration: BoxDecoration(
               color: Color(0xff1d6382),
               borderRadius: BorderRadius.all(Radius.circular(200)),
             ),
-          ),
+          )),
         ),
       ]),
     );
