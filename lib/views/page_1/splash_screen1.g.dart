@@ -40,17 +40,21 @@ class _SplashScreen1 extends State<SplashScreen1> {
                   ))),
         ),
         Positioned(
-          left: 72.0,
-          width: 215.555,
-          top: 385.709,
-          height: 29.134,
-          child: Image.asset(
-            'assets/images/photo202206112242291.png',
-            package: 'debrise',
-            width: 215.555,
-            height: 29.134,
-            fit: BoxFit.none,
-          ),
+          left: MediaQuery.of(context).size.width * 0.2,
+          width: MediaQuery.of(context).size.width * 0.599,
+          top: MediaQuery.of(context).size.height * 0.482,
+          height: MediaQuery.of(context).size.height * 0.036,
+          child: Center(
+              child: Container(
+                  height: 29.133543014526367,
+                  width: 215.5545654296875,
+                  child: Image.asset(
+                    'assets/images/photo202206112242291.png',
+                    package: 'debrise',
+                    width: 215.555,
+                    height: 29.134,
+                    fit: BoxFit.scaleDown,
+                  ))),
         ),
         Positioned(
           left: MediaQuery.of(context).size.width * 0.136,

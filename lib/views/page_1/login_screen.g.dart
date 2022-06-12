@@ -25,155 +25,139 @@ class _LoginScreen extends State<LoginScreen> {
       color: Colors.white,
       child: Stack(children: [
         Positioned(
-          left: 0,
-          width: 291.0,
-          top: 0,
-          height: 315.0,
-          child: Image.asset(
-            'assets/images/ellipse11.png',
-            package: 'debrise',
-            width: 291.000,
-            height: 315.000,
-            fit: BoxFit.none,
-          ),
-        ),
-        Positioned(
-          left: 101.0,
-          width: 410.0,
-          top: 467.0,
-          height: 387.0,
-          child: Image.asset(
-            'assets/images/ellipse12.png',
-            package: 'debrise',
-            width: 410.000,
-            height: 387.000,
-            fit: BoxFit.none,
-          ),
-        ),
-        Positioned(
-          left: 191.0,
-          width: 284.0,
-          top: 467.0,
-          height: 52.0,
+          left: 38.422,
+          width: 287.156,
+          top: 29.25,
+          height: 550.875,
           child: Container(
-            width: 284.000,
-            height: 52.000,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(5)),
-              border: Border.all(
-                color: Color(0xff757272),
-                width: 3,
-              ),
-            ),
-          ),
-        ),
-        Positioned(
-          left: 191.0,
-          width: 284.0,
-          top: 547.0,
-          height: 52.0,
-          child: Container(
-            width: 284.000,
-            height: 52.000,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(5)),
-              border: Border.all(
-                color: Color(0xff757272),
-                width: 3,
-              ),
-            ),
-          ),
-        ),
-        Positioned(
-          left: 191.0,
-          width: 284.0,
-          top: 627.0,
-          height: 44.0,
-          child: Container(
-            width: 284.000,
-            height: 44.000,
-            decoration: BoxDecoration(
-              color: Color(0xff1d6382),
-              borderRadius: BorderRadius.all(Radius.circular(5)),
-            ),
-          ),
-        ),
-        Positioned(
-          left: 306.0,
-          width: 55.0,
-          top: 634.0,
-          height: 30.0,
-          child: Container(
-              width: 55.000,
-              height: 30.000,
-              child: AutoSizeText(
-                'Login',
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 0,
-                  color: Colors.white,
+              width: 287.156,
+              height: 550.875,
+              decoration: BoxDecoration(),
+              child: Stack(children: [
+                Positioned(
+                  left: 0,
+                  width: 287.156,
+                  top: 351.975,
+                  height: 50.7,
+                  child: Container(
+                    width: 287.156,
+                    height: 50.700,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
+                      border: Border.all(
+                        color: Color(0xff757272),
+                        width: 3,
+                      ),
+                    ),
+                  ),
                 ),
-                textAlign: TextAlign.center,
-              )),
-        ),
-        Positioned(
-          left: 191.0,
-          width: 282.156,
-          top: 106.0,
-          height: 283.0,
-          child: SvgPicture.asset(
-            'assets/images/undrawaccessaccountre8spm1.svg',
-            package: 'debrise',
-            width: 282.156,
-            height: 283.000,
-            fit: BoxFit.none,
-          ),
-        ),
-        Positioned(
-          left: 207.0,
-          width: 258.0,
-          top: MediaQuery.of(context).size.height * 0.598,
-          height: MediaQuery.of(context).size.height * 0.037,
-          child: Center(
-              child: Container(
-                  width: 258.000,
-                  height: 30.000,
-                  child: AutoSizeText(
-                    'Enter User Name',
-                    style: TextStyle(
-                      fontFamily: 'Poppins',
-                      fontSize: 20,
-                      fontWeight: FontWeight.w300,
-                      letterSpacing: 0,
-                      color: Colors.black,
+                Positioned(
+                  left: 0,
+                  width: 287.156,
+                  top: 429.975,
+                  height: 50.7,
+                  child: Container(
+                    width: 287.156,
+                    height: 50.700,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
+                      border: Border.all(
+                        color: Color(0xff757272),
+                        width: 3,
+                      ),
                     ),
-                    textAlign: TextAlign.left,
-                  ))),
-        ),
-        Positioned(
-          left: 199.0,
-          width: 266.0,
-          top: MediaQuery.of(context).size.height * 0.698,
-          height: MediaQuery.of(context).size.height * 0.037,
-          child: Center(
-              child: Container(
-                  width: 266.000,
-                  height: 30.000,
-                  child: AutoSizeText(
-                    'Enter Password',
-                    style: TextStyle(
-                      fontFamily: 'Poppins',
-                      fontSize: 20,
-                      fontWeight: FontWeight.w300,
-                      letterSpacing: 0,
-                      color: Colors.black,
+                  ),
+                ),
+                Positioned(
+                  left: 0,
+                  width: 287.156,
+                  top: 507.975,
+                  height: 42.9,
+                  child: Container(
+                    width: 287.156,
+                    height: 42.900,
+                    decoration: BoxDecoration(
+                      color: Color(0xff1d6382),
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
                     ),
-                    textAlign: TextAlign.left,
-                  ))),
+                  ),
+                ),
+                Positioned(
+                  left: 116.278,
+                  width: 55.611,
+                  top: 514.8,
+                  height: 29.25,
+                  child: Container(
+                      width: 55.611,
+                      height: 29.250,
+                      child: AutoSizeText(
+                        'Login',
+                        style: TextStyle(
+                          fontFamily: 'Poppins',
+                          fontSize: 20,
+                          fontWeight: FontWeight.w600,
+                          letterSpacing: 0,
+                          color: Colors.white,
+                        ),
+                        textAlign: TextAlign.center,
+                      )),
+                ),
+                Positioned(
+                  left: 0,
+                  width: 285.291,
+                  top: 0,
+                  height: 275.925,
+                  child: SvgPicture.asset(
+                    'assets/images/undrawaccessaccountre8spm1.svg',
+                    package: 'debrise',
+                    width: 285.291,
+                    height: 275.925,
+                    fit: BoxFit.none,
+                  ),
+                ),
+                Positioned(
+                  left: 16.178,
+                  width: 260.867,
+                  top: 362.7,
+                  height: 29.25,
+                  child: Container(
+                      width: 260.867,
+                      height: 29.250,
+                      child: AutoSizeText(
+                        'Enter User Name',
+                        style: TextStyle(
+                          fontFamily: 'Poppins',
+                          fontSize: 20,
+                          fontWeight: FontWeight.w300,
+                          letterSpacing: 0,
+                          color: Colors.black,
+                        ),
+                        textAlign: TextAlign.left,
+                      )),
+                ),
+                Positioned(
+                  left: 8.089,
+                  width: 268.956,
+                  top: 440.7,
+                  height: 29.25,
+                  child: Container(
+                      width: 268.956,
+                      height: 29.250,
+                      child: AutoSizeText(
+                        'Enter Password',
+                        style: TextStyle(
+                          fontFamily: 'Poppins',
+                          fontSize: 20,
+                          fontWeight: FontWeight.w300,
+                          letterSpacing: 0,
+                          color: Colors.black,
+                        ),
+                        textAlign: TextAlign.left,
+                      )),
+                ),
+              ])),
         ),
       ]),
     );
